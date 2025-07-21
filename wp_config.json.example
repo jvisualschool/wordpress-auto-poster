@@ -1,0 +1,23 @@
+{
+  "wordpress": {
+    "url": "https://your-domain.com/blog",
+    "username": "your_wp_username",
+    "password": "your_wp_password",
+    "application_password": "your_application_password"
+  },
+  "sftp": {
+    "host": "your_server_ip",
+    "username": "your_sftp_username",
+    "privateKey": "~/.ssh/your_private_key.pem",
+    "port": 22,
+    "remote_image_path": "/path/to/wordpress/wp-content/uploads/auto-posts",
+    "image_url_base": "https://your-domain.com/blog/wp-content/uploads/auto-posts"
+  },
+  "database": {
+    "host": "localhost",
+    "user": "your_db_username",
+    "password": "your_db_password",
+    "database": "your_database_name",
+    "port": 3306
+  }
+}
