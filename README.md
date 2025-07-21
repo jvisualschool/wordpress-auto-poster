@@ -23,7 +23,7 @@ WordPress 블로그에 텍스트 파일과 이미지를 자동으로 포스팅�
 ### 1. 저장소 클론
 
 ```bash
-git clone https://github.com/your-username/wordpress-auto-poster.git
+git clone https://github.com/jvisualschool/wordpress-auto-poster.git
 cd wordpress-auto-poster
 ```
 
